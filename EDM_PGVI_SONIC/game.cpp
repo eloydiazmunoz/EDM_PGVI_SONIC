@@ -16,7 +16,7 @@ Game::Game()
     mBarrierTop.setPosition(1000.f, 0.f);
 
     mBarrierTop2.setSize(sf::Vector2f(100.f, 800.f));
-    mBarrierTop2.setFillColor(sf::Color::Green);
+    mBarrierTop2.setFillColor(sf::Color::White);
     mBarrierTop2.setPosition(1600.f, 0.f);
 
     mBarrierMiddle.setSize(sf::Vector2f(100.f, 700.f));
@@ -28,7 +28,7 @@ Game::Game()
     mBarrierBottom.setPosition(1300.f, mWindow.getSize().y - 750.f);
 
     mBarrierBottom2.setSize(sf::Vector2f(100.f, 1050.f));
-    mBarrierBottom2.setFillColor(sf::Color::White);
+    mBarrierBottom2.setFillColor(sf::Color::Green);
     mBarrierBottom2.setPosition(600.f, mWindow.getSize().y - 750.f);
 
 
